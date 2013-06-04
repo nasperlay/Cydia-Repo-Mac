@@ -29,13 +29,11 @@ Updates
 
       Get the file size of the folder inside your project that isn't "DEBIAN"
         In this case the "Applications" folder
-      Doubleclick on "1.command" and note the file size
+      Double click on "1.command" and note the file size
       Open "control" and write the correct size and replace the other ALL CAPS text
-        Next update: Bumb up the version number and check/update file size
-      Save the updated "control" file
+        Subsequent updates: Up the version number and check/update file size
 
-
-      Doubleclick on "2.command"
+      Double click on "2.command"
         Write the folder name
         In this case "Repo-Icon" without the ""
       You should now have created "Packages.bz2" and "Repo-Icon.deb" (in "files")
@@ -68,4 +66,4 @@ Testing the repo
         repo/Packages.bz2
         repo/Release
       On your server
-      Try to add it in Cydia
+      Add "http://yourhomepage.com/repo" in cydia and enjoy
