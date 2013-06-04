@@ -1,6 +1,9 @@
-This is based on [this](http://www.reddit.com/r/jailbreak/comments/1fi3wr/want_to_make_your_own_cydia_repo_i/) and [this](http://kr1sis.net/2012/05/146). It's work in progress so all instructions aren't done but you should be able to follow.
+About
+---
+It's is based on [this](http://www.reddit.com/r/jailbreak/comments/1fi3wr/want_to_make_your_own_cydia_repo_i/) and [this](http://kr1sis.net/2012/05/146). It's work in progress so all instructions aren't done but you should be able to follow.
 
-**License**
+License
+---
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br />This work by <a xmlns:cc="http://creativecommons.org/ns#" href="http://andreaslarsen.dk" property="cc:attributionName" rel="cc:attributionURL">Andreas Larsen</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
 
 What you need
