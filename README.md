@@ -1,5 +1,3 @@
-**Tutorial**
-
 What you need
 ---
 
@@ -25,7 +23,7 @@ Updates
         In this case the "Applications" folder
       Doubleclick on "1.command" and note the file size
       Open "control" and write the correct size and replace the other ALL CAPS text
-      Remember to bumb up the version number with each update
+        Next update: Bumb up the version number and check/update file size
       Save the updated "control" file
 
 
