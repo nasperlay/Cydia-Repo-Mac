@@ -17,23 +17,44 @@ Preparation - will update
 
       Step 1 + 2 here: http://kr1sis.net/2012/05/146
 
+First time only
+---
+
+      In "This goes on your server" folder
+      
+        Open (in e.g. textedit): "Release"
+          Replace ALL CAPS text with your information
+        
+        Open and edit (in e.g. photoshop): "CydiaIcon.png"
+      
+      In "Mac/original/Repo-Icon/DEBIAN"
+        
+        Open (in e.g. textedit): "control"
+          Replace the ALL CAPS text except size
+        
+        Open (in e.g. textedit): "1.command" + "2.command"
+          Replace the ALL CAPS text with correct paths (see gif)
+      
+<img src="http://d.pr/i/pdSB+" />
+
+**On your server**
+
+      From your mac: Copy "Release" + "CydiaIcon.png" to e.g. "repo" folder on your server
+
+
 Updates
 ---
 
 **On your mac**
 
-      Open (in e.g. textedit): "1.command" + "2.command"
-      Replace the ALL CAPS text with correct paths
-      
-<img src="http://d.pr/i/pdSB+" />
+      Steps in gif:
+        Get the file size of the folder inside your project that isn't "DEBIAN"
+          In this case the "Applications" folder
+          Double click on "1.command" and note the file size
+          Open "control" and write the correct size
+          Subsequent updates: Up the version number and check/update file size
 
-      Get the file size of the folder inside your project that isn't "DEBIAN"
-        In this case the "Applications" folder
-      Double click on "1.command" and note the file size
-      Open "control" and write the correct size and replace the other ALL CAPS text
-        Subsequent updates: Up the version number and check/update file size
-
-<img src="http://d.pr/i/BJFG+" />
+<img style="float:right" src="http://d.pr/i/BJFG+" />
 
       Double click on "2.command"
         Write the folder name
@@ -43,20 +64,6 @@ Updates
 **On your server**
 
       From your mac: Copy "files" folder + "Packages.bz2" to e.g. "repo" folder on your server
-
-
-First time only
----
-
-      In "This goes on your server" folder
-        Open (in e.g. textedit): "Release"
-          It's inside the "This goes on your server" folder
-          Replace ALL CAPS text with your information
-        Open and edit (in e.g. photoshop): "CydiaIcon.png"
-
-**On your server**
-
-      From your mac: Copy "Release" + "CydiaIcon.png" to e.g. "repo" folder on your server
 
 
 Testing the repo
