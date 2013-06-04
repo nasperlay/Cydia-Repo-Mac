@@ -33,6 +33,8 @@ Updates
       Open "control" and write the correct size and replace the other ALL CAPS text
         Subsequent updates: Up the version number and check/update file size
 
+<img src="http://d.pr/i/BJFG+" />
+
       Double click on "2.command"
         Write the folder name
         In this case "Repo-Icon" without the ""
