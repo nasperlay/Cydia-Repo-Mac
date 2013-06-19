@@ -9,37 +9,37 @@ License
 What you need
 ---
 
-      Mac
-      Server where you can upload files
+    Mac
+    Server/dropbox where you can upload files
 
 Preparation - will update
 ---
 
-      Step 1 + 2 here: http://kr1sis.net/2012/05/146
+    Step 1 + 2 here: http://kr1sis.net/2012/05/146
 
 First time only
 ---
 
-      In "This goes on your server" folder
+    In "This goes on your server" folder
       
-        Open (in e.g. textedit): "Release"
-          Replace ALL CAPS text with your information
+      Open (in e.g. textedit): "Release"
+        Replace ALL CAPS text with your information
         
-        Open and edit (in e.g. photoshop): "CydiaIcon.png"
+      Open and edit (in e.g. photoshop): "CydiaIcon.png"
       
-      In "Mac/original/Repo-Icon/DEBIAN"
+    In "Mac/original/Repo-Icon/DEBIAN"
         
-        Open (in e.g. textedit): "control"
-          Replace the ALL CAPS text except size
+      Open (in e.g. textedit): "control"
+        Replace the ALL CAPS text except size
         
-        Open (in e.g. textedit): "1.command" + "2.command"
-          Replace the ALL CAPS text with correct paths (see gif)
+      Open (in e.g. textedit): "1.command" + "2.command"
+        Replace the ALL CAPS text with correct paths (see gif)
       
 <img src="http://d.pr/i/pdSB+" />
 
 **On your server**
 
-      From your mac: Copy "Release" + "CydiaIcon.png" to e.g. "repo" folder on your server
+    From your mac: Copy "Release" + "CydiaIcon.png" to e.g. "repo" folder on your server
 
 
 Updates
@@ -47,32 +47,32 @@ Updates
 
 **On your mac**
 
-      Steps in gif:
-        Get the file size of the folder inside your project that isn't "DEBIAN"
-          In this case the "Applications" folder
-          Double click on "1.command" and note the file size
-          Open "control" and write the correct size
-          Subsequent updates: Up the version number and check/update file size
+    Steps in gif:
+      Get the file size of the folder inside your project that isn't "DEBIAN"
+        In this case the "Applications" folder
+        Double click on "1.command" and note the file size
+        Open "control" and write the correct size
+        Subsequent updates: Up the version number and check/update file size
 
 <img style="float:right" src="http://d.pr/i/BJFG+" />
 
-      Double click on "2.command"
-        Write the folder name
-        In this case "Repo-Icon" without the ""
-      You should now have created "Packages.bz2" and "Repo-Icon.deb" (in "files")
+    Double click on "2.command"
+      Write the folder name
+      In this case "Repo-Icon" without the ""
+    You should now have created "Packages.bz2" and "Repo-Icon.deb" (in "files")
             
 **On your server**
 
-      From your mac: Copy "files" folder + "Packages.bz2" to e.g. "repo" folder on your server
+    From your mac: Copy "files" folder + "Packages.bz2" to e.g. "repo" folder on your server
 
 
 Testing the repo
 ---
 
-      You should now have:
-        repo/CydiaIcon.png
-        repo/files/Repo-Icon.deb
-        repo/Packages.bz2
-        repo/Release
-      On your server
+    You should now have:
+      repo/CydiaIcon.png
+      repo/files/Repo-Icon.deb
+      repo/Packages.bz2
+      repo/Release
+    On your server
       Add "http://yourhomepage.com/repo" in cydia and enjoy
